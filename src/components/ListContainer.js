@@ -44,7 +44,6 @@ export default function ListContainer() {
   }
 
   function dragDrop(e) {
-    console.log(e.target.innerHTML);
     draggedElement.innerHTML = e.target.innerHTML;
     e.target.innerHTML = e.dataTransfer.getData("text/html");
     return false;
