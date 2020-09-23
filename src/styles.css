@@ -1,0 +1,56 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.dropdown {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 24px;
+}
+
+.dropdown select {
+  font-size: 18px;
+}
+
+.list-item {
+  margin: 8px auto;
+  padding: 12px;
+  max-width: 200px;
+  font-weight: 900;
+  font-size: 18px;
+  border-radius: 8px;
+  width: 100%;
+  transition: all 1s ease;
+  border: 3px solid #31302b;
+  background: linear-gradient(
+    to right,
+    #dbdfca 0%,
+    #a2d6d0 50%,
+    #a2d6d0 50%,
+    #71def4 100%
+  );
+  background-size: 200% 100%;
+  background-position: left bottom;
+}
+
+.list-item:hover {
+  background-position: right bottom;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.over {
+  transform: scale(1.1, 1.1);
+}
+
+.project-title {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.checkbox {
+  margin-right: 12px;
+}
